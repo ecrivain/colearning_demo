@@ -7,15 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
+#import <math.h>
+#import "console.h"
+
 
 int main(int argc, const char * argv[])
 {
 
     @autoreleasepool {
-        
-        // insert code here...
-        NSLog(@"Hello, World!");
-        
+        float result;
+        int num = getIntegerFromConsole(@"Enter int:");
+        result = sin(num);
+        NSLog(@"sin of your num = %f", result);
     }
     return 0;
 }

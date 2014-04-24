@@ -10,6 +10,7 @@
 		FC430A601909C36300E4F63C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC430A5F1909C36300E4F63C /* Foundation.framework */; };
 		FC430A631909C36300E4F63C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC430A621909C36300E4F63C /* main.m */; };
 		FC430A671909C36300E4F63C /* HelloWorld.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = FC430A661909C36300E4F63C /* HelloWorld.1 */; };
+		FC430A6F1909CC9700E4F63C /* console.m in Sources */ = {isa = PBXBuildFile; fileRef = FC430A6E1909CC9700E4F63C /* console.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		FC430A621909C36300E4F63C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC430A651909C36300E4F63C /* HelloWorld-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloWorld-Prefix.pch"; sourceTree = "<group>"; };
 		FC430A661909C36300E4F63C /* HelloWorld.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = HelloWorld.1; sourceTree = "<group>"; };
+		FC430A6D1909CC9700E4F63C /* console.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = console.h; path = ../../../Desktop/console.h; sourceTree = "<group>"; };
+		FC430A6E1909CC9700E4F63C /* console.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = console.m; path = ../../../Desktop/console.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +78,8 @@
 			children = (
 				FC430A621909C36300E4F63C /* main.m */,
 				FC430A661909C36300E4F63C /* HelloWorld.1 */,
+				FC430A6D1909CC9700E4F63C /* console.h */,
+				FC430A6E1909CC9700E4F63C /* console.m */,
 				FC430A641909C36300E4F63C /* Supporting Files */,
 			);
 			path = HelloWorld;
@@ -140,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC430A631909C36300E4F63C /* main.m in Sources */,
+				FC430A6F1909CC9700E4F63C /* console.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
